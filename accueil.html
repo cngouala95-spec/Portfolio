@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil | Sach Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 overflow-hidden">
+
+    <section class="relative h-screen w-full flex items-center justify-center bg-cover bg-center" 
+             style="background-image: url('images/JP.png');">
+        
+        <div class="absolute inset-0 bg-black/70 backdrop-blur-[2px]"></div>
+
+        <div class="absolute left-6 z-30">
+            <a href="index.html" class="group flex items-center justify-center w-14 h-14 rounded-full bg-white/10 border border-white/20 hover:bg-sky-500 transition-all duration-300">
+                <svg class="w-6 h-6 text-white group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                </svg>
+            </a>
+        </div>
+
+        <div class="absolute right-6 z-50">
+    <a href="a-propos.html" class="group flex items-center justify-center w-14 h-14 rounded-full bg-white/10 border border-white/20 hover:bg-sky-500 transition-all duration-300">
+        <svg class="w-6 h-6 text-white group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+        </svg>
+    </a>
+</div>
+
+        <div class="relative z-10 text-center px-6 max-w-4xl">
+            <h1 class="text-white text-5xl md:text-8xl font-black mb-8 tracking-tighter animate-fade-in">
+                BIENVENUE
+            </h1>
+            
+            <div class="space-y-6">
+                <p class="text-xl md:text-2xl text-gray-200 leading-relaxed font-light">
+                    Découvrez l'univers de <span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-600 font-bold">Sach</span>, 
+                    développeur informatique passionné par la technologie, la créativité et le dépassement de soi.
+                </p>
+
+                <p class="text-gray-300 text-lg md:text-xl italic max-w-2xl mx-auto leading-relaxed border-l-4 border-sky-500 pl-4 bg-white/5 py-2">
+                    "Ce site est un espace où les idées prennent vie à travers le code, les projets et l'envie constante d'apprendre et d'évoluer."
+                </p>
+            </div>
+
+            <div class="mt-12">
+                <a href="#about" class="inline-block bg-sky-600 hover:bg-sky-500 text-white font-bold py-4 px-12 rounded-full transition-all transform hover:scale-105 shadow-[0_10px_20px_rgba(0,0,0,0.3)] uppercase tracking-widest">
+                    Poursuivre
+                </a>
+            </div>
+        </div>
+
+        <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce opacity-50">
+            <div class="w-6 h-10 border-2 border-white rounded-full flex justify-center pt-2">
+                <div class="w-1 h-2 bg-white rounded-full"></div>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+</html>
